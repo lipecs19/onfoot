@@ -1,0 +1,2041 @@
+
+.logo{
+  width: 90px;
+  position: absolute;
+  right: 90%;
+  bottom: 85%;
+  padding: 10px;
+}
+
+
+body {
+  overflow-x: hidden;
+}  
+
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #131313;
+  display: flex;
+
+
+}
+
+.container{
+  position: absolute;
+ 
+}
+
+.container .card{
+  position: absolute;
+  top: 490px;
+  left: 390px;
+  width: 260px;
+  height: 420px;
+  background: #232323;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.container .card:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2b0e79;
+  clip-path: circle(150px at 80% 20%);
+  transition: 0.5s ease-in-out;
+}
+
+.container .card:hover:before{
+  clip-path: circle(300px at 80% -20%);
+}
+
+
+
+.container .card .imgBx{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 100%;
+  height: 220px;
+  transition: 0.5s;
+}
+
+.container .card:hover .imgBx{
+  top: 0%;
+  transform: translateY(0%);
+    
+}
+
+.container .card .imgBx img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-25deg);
+  width: 270px;
+}
+
+.container .card .contentBx{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+}
+
+.container .card:hover .contentBx{
+  height: 210px;
+}
+
+.container .card .contentBx h2{
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 0;
+}
+
+.container .card .contentBx .size, .container .card .contentBx .color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s;opacity: 0;
+  visibility: hidden;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.container .card:hover .contentBx .size{
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+
+.container .card:hover .contentBx .color{
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.6s;
+}
+
+.container .card .contentBx .size h3, .container .card .contentBx .color h3{
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+.container .card .contentBx .size span{
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 14px;
+  display: inline-block;
+  color: #111;
+  background: #fff;
+  margin: 0 5px;
+  transition: 0.5s;
+  color: #111;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container .card .contentBx .size span:hover{
+  background: #2b0e79;
+}
+
+
+
+.container .card .contentBx a{
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #111;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.5s;
+  margin-top: 0;
+}
+
+.container .card:hover .contentBx a{
+  opacity: 1;
+  transform: translateY(0px);
+  transition-delay: 0.75s;
+  
+}
+/* card 2 shoes----------------------------- */
+*{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #131313;
+  
+  }
+  
+  .container2{
+    position: absolute;
+   
+  }
+ 
+  .container2 .card2{
+    position: absolute;
+    top: 490px;
+     right: -290px;
+    width: 260px;
+    height: 420px;
+    background: #232323;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .container2 .card2:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #96949c;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+  }
+  
+  .container2 .card2:hover:before{
+    clip-path: circle(300px at 80% -20%);
+  }
+  
+  
+  
+  .container2 .card2 .imgBx2{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10000;
+    width: 100%;
+    height: 220px;
+    transition: 0.5s;
+  }
+  
+  .container2 .card2:hover .imgBx2{
+    top: 0%;
+    transform: translateY(0%);
+      
+  }
+  
+  .container2 .card2 .imgBx2 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(11deg);
+    width: 480px;
+  }
+  
+  .container2 .card2 .contentBx2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+  }
+  
+  .container2 .card2:hover .contentBx2{
+    height: 210px;
+  }
+  
+  .container2 .card2 .contentBx2 h2{
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .container2 .card2 .contentBx2 .size2, .container2 .card2 .contentBx2 .color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;opacity: 0;
+    visibility: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .container2 .card2:hover .contentBx2 .size2{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+  }
+  
+  .container2 .card2:hover .contentBx2 .color{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.6s;
+  }
+  
+  .container2 .card2 .contentBx2 .size2 h3, .container2 .card2 .contentBx2 .color h3{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+  }
+  
+  .container2 .card2 .contentBx2 .size2 span{
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    color: #111;
+    background: #fff;
+    margin: 0 5px;
+    transition: 0.5s;
+    color: #111;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .container2 .card2 .contentBx2 .size2 span:hover{
+    background: none;
+  }
+  
+  
+  
+  .container2 .card2 .contentBx2 a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #111;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.5s;
+    margin-top: 0;
+  }
+  
+  .container2 .card2:hover .contentBx2 a{
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.75s;
+    
+  }
+  /* CARD 3 SHOES*-------------------------- */
+  *{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #131313;
+  
+  }
+  
+  .container3{
+    position: absolute;
+   
+  }
+  
+  .container3 .card3{
+    position: absolute;
+    top: 490px;
+     right: 40px;
+    width: 260px;
+    height: 420px;
+    background: #232323;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .container3 .card3:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #a26263;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+  }
+  
+  .container3 .card3:hover:before{
+    clip-path: circle(300px at 80% -20%);
+  }
+  
+  
+  
+  .container3 .card3 .imgBx3{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10000;
+    width: 100%;
+    height: 220px;
+    transition: 0.5s;
+  }
+  
+  .container3 .card3:hover .imgBx3{
+    top: 0%;
+    transform: translateY(0%);
+      
+  }
+  
+  .container3 .card3 .imgBx3 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-25deg);
+    width: 270px;
+  }
+  
+  .container3 .card3 .contentBx3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+  }
+  
+  .container3 .card3:hover .contentBx3{
+    height: 210px;
+  }
+  
+  .container3 .card3 .contentBx3 h2{
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .container3 .card3 .contentBx3 .size3, .container3 .card3 .contentBx3 .color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;opacity: 0;
+    visibility: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .container3 .card3:hover .contentBx3 .size3{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+  }
+  
+  .container3 .card3:hover .contentBx3 .color{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.6s;
+  }
+  
+  .container3 .card3 .contentBx3 .size3 h3, .container3 .card3 .contentBx3 .color h3{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+  }
+  
+  .container3 .card3 .contentBx3 .size3 span{
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    color: #111;
+    background: #fff;
+    margin: 0 5px;
+    transition: 0.5s;
+    color: #111;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .container3 .card3 .contentBx3 .size3 span:hover{
+    background: none;
+  }
+  
+  
+  
+  .container3 .card3 .contentBx3 a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #111;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.5s;
+    margin-top: 0;
+  }
+  
+  .container3 .card3:hover .contentBx3 a{
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.75s;
+    
+  }
+  /* --------------------QUARTO CARD SHOES----------------------- */
+  *{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #131313;
+  
+  }
+  
+  .container4{
+    position: absolute;
+   
+  }
+  
+  .container4 .card4{
+    position: absolute;
+    top: 490px;
+     right: 400px;
+    width: 260px;
+    height: 420px;
+    background: #232323;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .container4 .card4:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #c70304;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+  }
+  
+  .container4 .card4:hover:before{
+    clip-path: circle(300px at 80% -20%);
+  }
+  
+  
+  
+  .container4 .card4 .imgBx4{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10000;
+    width: 100%;
+    height: 220px;
+    transition: 0.5s;
+  }
+  
+  .container4 .card4:hover .imgBx4{
+    top: 0%;
+    transform: translateY(0%);
+      
+  }
+  
+  .container4 .card4 .imgBx4 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-25deg);
+    width: 270px;
+  }
+  
+  .container4 .card4 .contentBx4{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+  }
+  
+  .container4 .card4:hover .contentBx4{
+    height: 210px;
+  }
+  
+  .container4 .card4 .contentBx4 h2{
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .container4 .card4 .contentBx4 .size4, .container4 .card4 .contentBx4 .color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;opacity: 0;
+    visibility: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .container4 .card4:hover .contentBx4 .size4{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+  }
+  
+  .container4 .card4:hover .contentBx4 .color{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.6s;
+  }
+  
+  .container4 .card4 .contentBx4 .size4 h3, .container4 .card4 .contentBx4 .color h3{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+  }
+  
+  .container4 .card4 .contentBx4 .size4 span{
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    color: #111;
+    background: #fff;
+    margin: 0 5px;
+    transition: 0.5s;
+    color: #111;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .container4 .card4 .contentBx4 .size4 span:hover{
+    background: none;
+  }
+  
+  
+  
+  .container4 .card4 .contentBx4 a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #111;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.5s;
+    margin-top: 0;
+  }
+  
+  .container4 .card4:hover .contentBx4 a{
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.75s;
+    
+  }
+  
+  /* ----------------------------- */
+ .imgfundo img{
+  position: absolute;
+  right:0;
+  width: 500px;
+  cursor: pointer;
+
+ }
+ /* ---------------------FRASE FUNDO HOME------------------ */
+ .text-chamada {
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-variant: small-caps;
+  font-weight: 100;
+  text-align: center;
+  background-size: 200% 200%;
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  position: absolute;
+  bottom: 400px;
+  left: 1%;
+  width: 700px;
+  height: 100px;  
+}
+
+
+
+/* ---------------------------------------barra de opções do site------------------------- */
+ #menu{
+  height: 30px;
+  width: 35px;
+margin: 30px 0 20px 20px;
+cursor: pointer;
+}
+
+.bar{
+  height: 5px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: block;
+  border-radius: 6px;
+  transition: 0.5s ease;
+  
+
+}
+
+#bar1{
+  transform: translateY(-4px);
+}
+
+#bar3{
+  transform: translateY(4px);
+}
+
+/* como tirar a lnha do link e bolinha e colocar na barra IMPORTANTE-------------------------- */
+.nav li a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav li a:hover{
+  font-weight: bold;
+}
+
+.nav li{
+  list-style: none;
+  padding: 16px 0;
+}
+
+.nav{
+  padding: 0;
+  margin: 0 20px;
+  transition: 0.8s ease;
+  display: none;
+}
+/* ----------------------------------- */
+
+.menu-bg, #menu-bar{
+  position: absolute;
+  top: 0;
+right: 5%;
+
+}
+
+.menu-bg{
+  height: 0;
+  width: 0;
+  z-index: 1;
+  margin: 30px 20px 20px;
+  background: radial-gradient(circle, rgb(153, 22, 22), #c71434);
+  transition: 0.4s ease;
+  border-radius: 100%;
+  position: absolute;
+  left: 109%;
+}
+
+#menu-bar{
+  z-index: 2;
+}
+
+.change-bg{
+  height: 490px;
+  width: 520px;
+  transform: translate(-60%, -30%);
+  position: absolute;
+ left: 109%;
+
+}
+
+
+.change #bar{
+  background-color: white;
+
+}
+
+
+.change #bar1{
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3{
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+
+.change #bar2{
+  opacity: 0;
+}
+
+
+.change{
+  display: block;
+}
+/* ------------------------image rolate ------------------------------------------*/
+.carousel {
+  position: relative;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+  margin-top: 26px;
+  width: 90%;
+  bottom: 80px;
+  border-radius: 3rem;
+}
+
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 3rem;
+}
+
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100;
+}
+
+.carousel-item {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+  
+}
+
+.carousel-item img {
+  display: block;
+  height: 450px;
+ width: 1400px;
+  
+}
+
+.carousel-control {
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 40px;
+  height: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10;
+}
+
+.carousel-control.prev {
+  left: 2%;
+}
+
+.carousel-control.next {
+  right: 2%;
+}
+
+.carousel-control:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: block;
+}
+
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.carousel-bullet {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+}
+
+.carousel-bullet:hover {
+  color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+  color: #428bca;
+}
+
+#title {
+  width: 100%;
+  position: absolute;
+  padding: 0px;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 27px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Open Sans', sans-serif;
+  z-index: 9999;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+/* ---------------------------------------+++++ */
+
+/* -------------------1 card buy shoes----------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  }
+
+
+
+.card1 {
+  margin: auto;
+  width: 20%;
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 75%;
+  right: 75%;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+  
+}
+
+.card-img1 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  backdrop-filter: blur(3px);
+  border-radius: 16px 16px 0 0;
+  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, .5);
+  background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 100%);
+}
+
+.card-img1 img {
+  width: 70%;
+  margin: auto;
+  transform: rotate(0deg);
+}
+
+.card-details {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-title1 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  
+}
+
+.card-price1 h3 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.card-price1 span {
+  color: #888;
+  font-size: 14px;
+}
+
+.card-btn button {
+  background: #00e498;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background .2s;
+}
+
+.card-btn button:hover {
+  background: #00e498;
+}
+/* --------------2 card buy shoes----------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.card2 {
+  margin: auto;
+  width: 20%;
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 75%;
+  right: 52%;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+
+}
+
+.card-img2 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  backdrop-filter: blur(3px);
+  border-radius: 16px 16px 0 0;
+  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, .5);
+  background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 100%);
+}
+
+.card-img2 img {
+  width: 70%;
+  margin: auto;
+  transform: rotate(0deg);
+}
+
+.card-details {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-title2 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.card-price2 h3 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.card-price2 span {
+  color: #888;
+  font-size: 14px;
+}
+
+.card-btn button {
+  background: #00e498;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background .2s;
+}
+
+.card-btn button:hover {
+  background: #00e498;
+}
+/* -------------3 card buy shoes-------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.card3 {
+  margin: auto;
+  width: 20%;
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 75%;
+  right: 29%;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+
+}
+
+.card-img3 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  backdrop-filter: blur(3px);
+  border-radius: 16px 16px 0 0;
+  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, .5);
+  background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 100%);
+}
+
+.card-img3 img {
+  width: 70%;
+  margin: auto;
+  transform: rotate(0deg);
+}
+
+.card-details {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-title3 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.card-price3 h3 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.card-price3 span {
+  color: #888;
+  font-size: 14px;
+}
+
+.card-btn button {
+  background: #00e498;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background .2s;
+}
+
+.card-btn button:hover {
+  background: #00e498;
+}
+/* ----------------4 card buy shoes---------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.card4 {
+  margin: auto;
+  width: 20%;
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 75%;
+  right: 6%;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+
+}
+
+.card-img4 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  backdrop-filter: blur(3px);
+  border-radius: 16px 16px 0 0;
+  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, .5);
+  background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 100%);
+}
+
+.card-img4 img {
+  width: 70%;
+  margin: auto;
+  transform: rotate(0deg);
+}
+
+.card-details {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-title4 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.card-price4 h3 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.card-price4 span {
+  color: #888;
+  font-size: 14px;
+}
+
+.card-btn button {
+  background: #00e498;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background .2s;
+}
+
+.card-btn button:hover {
+  background: #00e498;
+}
+
+/* ----------------5 card buy shoes --------+-+-+-+-+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  }
+
+
+
+.card5 {
+  margin: auto;
+  width: 20%;
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 115%;
+  right: 75%;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+  
+}
+
+.card-img5 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  backdrop-filter: blur(3px);
+  border-radius: 16px 16px 0 0;
+  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, .5);
+  background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 100%);
+}
+
+.card-img5 img {
+  width: 70%;
+  margin: auto;
+  transform: rotate(0deg);
+}
+
+.card-details {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-title5 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+  
+}
+
+.card-price5 h3 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.card-price5 span {
+  color: #888;
+  font-size: 14px;
+}
+
+.card-btn button {
+  background: #00e498;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background .2s;
+}
+
+.card-btn button:hover {
+  background: #00e498;
+}
+
+/* -------------------6 card buy shoes-+-+-+-+-+-+--+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.card6 {
+  margin: auto;
+  width: 20%;
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 115%;
+  right: 52%;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+
+}
+
+.card-img6 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  backdrop-filter: blur(3px);
+  border-radius: 16px 16px 0 0;
+  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, .5);
+  background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 100%);
+}
+
+.card-img6 img {
+  width: 69%;
+  margin: auto;
+  transform: rotate(0deg);
+}
+
+.card-details {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-title6 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.card-price6 h3 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.card-price6 span {
+  color: #888;
+  font-size: 14px;
+}
+
+.card-btn button {
+  background: #00e498;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background .2s;
+}
+
+.card-btn button:hover {
+  background: #00e498;
+}
+
+/* -------------7 card buy shoes-------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.card7 {
+  margin: auto;
+  width: 20%;
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 115%;
+  right: 29%;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+
+}
+
+.card-img7 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  backdrop-filter: blur(3px);
+  border-radius: 16px 16px 0 0;
+  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, .5);
+  background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 100%);
+}
+
+.card-img7 img {
+  width: 70%;
+  margin: auto;
+  transform: rotate(0deg);
+}
+
+.card-details {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-title7 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.card-price7 h3 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.card-price7 span {
+  color: #888;
+  font-size: 14px;
+}
+
+.card-btn button {
+  background: #00e498;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background .2s;
+}
+
+.card-btn button:hover {
+  background: #00e498;
+}
+
+/* ----------------8 card buy shoes---------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.card8 {
+  margin: auto;
+  width: 20%;
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 115%;
+  right: 6%;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+
+}
+
+.card-img8 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  backdrop-filter: blur(3px);
+  border-radius: 16px 16px 0 0;
+  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, .5);
+  background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 100%);
+}
+
+.card-img8 img {
+  width: 70%;
+  margin: auto;
+  transform: rotate(0deg);
+}
+
+.card-details {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-title8 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.card-price8 h3 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.card-price8 span {
+  color: #888;
+  font-size: 14px;
+}
+
+.card-btn button {
+  background: #00e498;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background .2s;
+}
+
+.card-btn button:hover {
+  background: #00e498;
+}
+
+
+/*-------------------------------img 1/2 page 2-------------*/
+.img1 {
+  position: absolute;
+}
+
+
+.img1 img {
+position: absolute;
+top: 890px;
+width: 900px;
+right: -250px;
+border-radius: 1.6em;
+box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+cursor: pointer;
+}
+
+.img2 {
+  position: absolute;
+}
+
+
+.img2 img {
+position: absolute;
+top: 890px;
+width: 360px;
+left: 280px;
+height: 285px;
+border-radius: 1.6em;
+box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+cursor: pointer;
+}
+/* --------------------------------------- */
+/* -------------------9 card buy shoes-+-+-+-+-+-+--+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  }
+
+
+
+.card9 {
+  margin: auto;
+  width: 20%;
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 197%;
+  right: 75%;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+  
+}
+
+.card-img9 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  backdrop-filter: blur(3px);
+  border-radius: 16px 16px 0 0;
+  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, .5);
+  background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 100%);
+}
+
+.card-img9 img {
+  width: 70%;
+  margin: auto;
+  transform: rotate(0deg);
+}
+
+.card-details {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-title9 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+  
+}
+
+.card-price9 h3 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.card-price9 span {
+  color: #888;
+  font-size: 14px;
+}
+
+.card-btn button {
+  background: #00e498;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background .2s;
+}
+
+.card-btn button:hover {
+  background: #00e498;
+}
+
+/* -------------------10 card buy shoes-+-+-+-+-+-+--+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.card10 {
+  margin: auto;
+  width: 20%;
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 197%;
+  right: 52%;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+
+}
+
+.card-img10 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  backdrop-filter: blur(3px);
+  border-radius: 16px 16px 0 0;
+  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, .5);
+  background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 100%);
+}
+
+.card-img10 img {
+  width: 69%;
+  margin: auto;
+  transform: rotate(0deg);
+}
+
+.card-details {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-title10 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.card-price10 h3 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.card-price10 span {
+  color: #888;
+  font-size: 14px;
+}
+
+.card-btn button {
+  background: #00e498;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background .2s;
+}
+
+.card-btn button:hover {
+  background: #00e498;
+}
+
+/* -------------11 card buy shoes-------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.card11 {
+  margin: auto;
+  width: 20%;
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 197%;
+  right: 29%;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+
+}
+
+.card-img11 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  backdrop-filter: blur(3px);
+  border-radius: 16px 16px 0 0;
+  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, .5);
+  background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 100%);
+}
+
+.card-img11 img {
+  width: 70%;
+  margin: auto;
+  transform: rotate(0deg);
+}
+
+.card-details {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-title11 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.card-price11 h3 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.card-price11 span {
+  color: #888;
+  font-size: 14px;
+}
+
+.card-btn button {
+  background: #00e498;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background .2s;
+}
+
+.card-btn button:hover {
+  background: #00e498;
+}
+
+/* ----------------12 card buy shoes---------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.card12 {
+  margin: auto;
+  width: 20%;
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 197%;
+  right: 6%;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+
+}
+
+.card-img12 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  backdrop-filter: blur(3px);
+  border-radius: 16px 16px 0 0;
+  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, .5);
+  background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 100%);
+}
+
+.card-img12 img {
+  width: 70%;
+  margin: auto;
+  transform: rotate(0deg);
+}
+
+.card-details {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-title12 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.card-price12 h3 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.card-price12 span {
+  color: #888;
+  font-size: 14px;
+}
+
+.card-btn button {
+  background: #00e498;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background .2s;
+}
+
+.card-btn button:hover {
+  background: #00e498;
+}
+
+
+/* icon social media  */
+*{
+	padding: 0;
+	margin: 0;
+}
+.middle{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  position: absolute;
+  right: 40%;
+  top: 45%;
+}
+.btn-socialMedia{
+	width: 40px;
+	height: 40px;
+	background-color: #f1f1f1;
+	display: flex;
+	margin: 0 10px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30%;
+	box-shadow: 0 5px 15px -5px #00000070;
+	color: #040505;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+}
+.btn-socialMedia i{
+	font-size: 25px;
+	line-height: 90px;
+	transition:  0.2s linear;
+}
+.btn-socialMedia:hover i{
+	transform: scale(1.3);
+	color: #f1f1f1;
+}
+.btn-socialMedia::before{
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	background-color: #3498db;
+	transform: rotate(45deg);
+	left: -110%;
+	top: 90%;
+}
+.btn-socialMedia:hover::before{
+	animation: aaa 0.7s 1;
+	top: -10%;
+	left: -10%;
+}
+@keyframes aaa {
+	0%{
+		left: -110%;
+		top: 90%
+	}
+	50%{
+		left: 10%;
+		top: -30%
+	}
+	100%{
+		left: -10%;
+		top: -10%
+	}
+}
+
+/* ----+frase index.html-+--+-+ */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+p {
+  position: absolute;
+  top: 95%;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 8px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 8s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+/* -----img index------ */
+.imgdex {
+  position: absolute;
+  top: 1360px;
+  left: 27%;
+}
+.imgdex img{
+  width: 1000px;
+  border-radius: 1.6rem;
+  cursor: pointer;
+}
+
+
+.imgdex2 {
+  position: absolute;
+  top: 1360px;
+  right: 74%;
+}
+
+.imgdex2 img{
+  width: 317px;
+  border-radius: 1.6rem;
+  cursor: pointer;
+}
